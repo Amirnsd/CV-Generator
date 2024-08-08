@@ -1,0 +1,31 @@
+.professional-information {
+    background-color: #fff;
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 12px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
+.professional-button{
+    border: none;
+    cursor: pointer;
+    font-size: 1.2rem; 
+    margin-left: 10px; 
+    vertical-align: middle;
+}
+
+textarea {
+    padding-inline: 6px;
+    width: 100%;
+    height: 5rem;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    border: solid transparent ;
+    background-color: #f3f4f6;
+    text-rendering: auto;
+    resize: none; 
+}

@@ -1,0 +1,143 @@
+.header-form {
+  background-color: #0e374e;
+}
+
+
+.personal-form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.personal-form h1 {
+  margin: 30px 10px;
+  color: #fff;
+}
+
+
+.contact-info {
+  align-items: center;
+  justify-content: center;
+  margin: 10px 12px;
+  display: flex;
+  gap: 40px;
+}
+
+.contact-info h2 {
+  color: #fff;
+}
+
+
+
+
+.education-section {
+  display: flex;
+  margin-top: 40px;
+  border-radius: 12px;
+  padding: 5px 0;
+  background-color: #f3f4f6;
+  text-align: center;
+  justify-content: center; 
+  margin-inline-start: 30px;
+  margin-inline-end: 30px;
+}
+
+
+.education-details {
+  display: flex;
+  flex-direction: column;
+  width: 100%; 
+  margin: 0; 
+  padding: 16px 1rem; 
+  justify-content: space-between; 
+ 
+}
+
+.education-header {
+  display: flex;
+  justify-content: space-between; 
+}
+
+.education-degree {
+  flex: 1;
+  text-align: left;
+}
+
+.education-degree{
+  margin-left: 20px;
+}
+
+.education-dates{
+  flex: 1;
+  text-align: right;
+  margin-right: 20px;
+  font-size: 16px;
+}
+
+
+.education-location h2{
+  font-size: 18px;
+  margin-top: -5px;
+  margin-left: 20px;
+}
+/*--------------education-information----------------------------------*/
+
+
+.profession-info-container{
+  display: flex;
+  margin-top: 40px;
+  border-radius: 12px;
+  padding: 5px 0;
+  background-color: #f3f4f6;
+  text-align: center;
+  justify-content: center; 
+  margin-inline-start: 30px;
+  margin-inline-end: 30px;
+}
+
+.profession-info {
+  display: flex;
+  width: 100%; 
+  flex-direction: column;
+  margin: 0; 
+  padding: 16px 1rem; 
+  justify-content: space-between; 
+}
+
+.profession-header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px; 
+}
+
+.job-name {
+  flex: 1;
+  text-align: left;
+}
+
+.job-name h2{
+  margin-left: 20px;
+}
+
+.job-name h2:nth-of-type(2){
+  font-size: 18px;
+  margin-top: -5px;
+}
+
+.job-date {
+  flex: 1;
+  text-align: right;
+}
+
+.job-date h2{
+  margin-right: 20px;
+  font-size: 16px;
+}
+
+.job-description {
+  margin: 0 20px; 
+}
+
+
+
